@@ -56,30 +56,30 @@ img{
     text-align: center;
 }
 
-#protag .detail, #stupei .detail{
+#GENGAR .detail, #stupei .detail{
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-#protag{
+#GENGAR{
     grid-column: 1/3;
-    background-color: #1f1b49;
+    background-color: #8806CE;
 }
 
-#mitsuru{
-    background-color: crimson;
+#CHARIZARD{
+    background-color: #ED820E;
     grid-column: 3/4;
 }
 
-#koro{
-    background-color: gray;
+#RHYHORN{
+    background-color: #555555;
     grid-column: 4/5;
     grid-row: 1/3;
 }
 
-#aigis{
-    background-color: darkgoldenrod;
+#PIKACHU{
+    background-color: gold;
     grid-column: 1/2;
     grid-row: 2/3;
 }
@@ -107,11 +107,11 @@ img{
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    #mitsuru{
+    #CHARIZARD{
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    #aigis{
+    #PIKACHU{
         grid-column: 1/2;
         grid-row: 2/3;
     }
@@ -119,7 +119,7 @@ img{
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    #koro{
+    #RHYHORN{
         grid-column: 1/3;
         grid-row: 3/4;
     }
@@ -128,7 +128,7 @@ img{
         align-items: center;
         gap: 50px;
     }
-    #koro .detail{
+    #RHYHORN .detail{
         display: flex;
         align-items: center;
         gap: 100px;
@@ -140,7 +140,7 @@ img{
         grid-template-columns: 1fr;
         width: 70vw;
     }
-    #protag .detail, #stupei .detail, #koro .detail, #mitsuru .detail, #aigis .detail{
+    #protag .detail, #stupei .detail, #RHYHORN .detail, #CHARIZARD .detail, #PIKACHU .detail{
         display: flex;
         align-items: center;
         gap: 50px;
@@ -153,11 +153,11 @@ img{
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    #mitsuru{
+    #CHARIZARD{
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    #aigis{
+    #PIKACHU{
         grid-column: 1/2;
         grid-row: 3/4;
     }
@@ -165,7 +165,7 @@ img{
         grid-column: 1/2;
         grid-row: 4/5;
     }
-    #koro{
+    #RHYHORN{
         grid-column: 1/2;
         grid-row: 5/6;
     }
